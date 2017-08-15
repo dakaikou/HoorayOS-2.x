@@ -1,0 +1,117 @@
+*{margin:0;padding:0}
+form,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,p{list-style:none outside none}
+textarea{resize:none;padding:5px}
+.fr{float:right}
+.fl{float:left}
+.disn{display:none}
+.breakword{
+white-space: pre;           /* CSS 2.0 */
+white-space: pre-wrap;      /* CSS 2.1 */
+white-space: pre-line;      /* CSS 3.0 */
+white-space: -pre-wrap;     /* Opera 4-6 */
+white-space: -o-pre-wrap;   /* Opera 7 */
+white-space: -moz-pre-wrap; /* Mozilla */
+white-space: -hp-pre-wrap;  /* HP Printers */
+word-wrap: break-word;      /* IE 5 */
+}
+
+.title{background:url(app_spr_x.png) repeat-x 0 -40px #E6F2FA;border-bottom:1px solid #DDD;padding-left:10px;height:27px;line-height:27px;color:#666;clear:both}
+.title{background-image:url(app_spr_x.png);background-repeat:repeat-x;position:relative;height:27px;padding:0 5px;line-height:27px;border-bottom:1px solid #DDD;background-position:0 -40px}
+.title b{color:#F60}
+.title .btn-back{float:left;margin:4px 5px 0 0}
+.title ul{position:absolute;top:0;left:-1px;height:28px;overflow:hidden}
+.title li{float:left;height:28px;padding:0 10px;line-height:28px;color:#999;cursor:pointer}
+.title li.focus{padding:0 9px;font-weight:bold;color:#444;border-left:1px solid #DDD;border-right:1px solid #DDD;background:#FFF;cursor:default}
+
+.input-label{float:left;width:100%;background:url(input-label.png) repeat-y;padding:10px 0;line-height:24px;border-bottom:1px solid #eee;clear:both}
+.input-label .label-text{float:left;padding-right:20px;text-align:right;width:130px}
+.input-label .label-box{float:left;margin:0 10px;clear:left;margin-top:-24px;margin-left:150px;_margin-left:75px}
+
+/* 分页 未知宽度居中 http://leotheme.cn/javascript/dom-float-center.html */
+.pagination{float:left;left:50%;position:relative;margin-top:12px}
+.pagination a,
+.pagination button{position:relative;right:50%;text-align:center;margin:0 2px}
+.pagination .prev{margin-right:15px}
+.pagination .next{margin-left:15px}
+
+/* 应用市场 */
+.nav-sort a,
+.nav-personal a{background-image:url(app_spr_nav.png);background-repeat:no-repeat}
+.sub-nav{position:absolute;top:0;bottom:0;left:0;width:58px;height:100%;border-left:1px solid #5E616E;border-right:1px solid #434652;background:#545765}
+.nav-sort{position:absolute;top:4px;left:3px;width:56px}
+.nav-sort li{height:30px;vertical-align:middle}
+.nav-sort a{display:block;height:30px;line-height:30px;text-align:center;font-weight:bold;font-size:14px;color:#CCC;background-position:100px 100px}
+.nav-sort a:hover{color:#CCC;background-position:-57px 0}
+.nav-sort .focus a,
+.nav-sort .focus a:hover{color:#FFF;background-position:0 0}
+.nav-personal{position:absolute;bottom:0;left:-1px;width:60px;background:#474A57}
+.nav-personal dt{height:8px;overflow:hidden}
+.nav-personal dt a{display:block;height:8px;line-height:10;overflow:hidden;background-position:0 -31px}
+.nav-personal dt a:hover{background-position:-61px -31px}
+.nav-personal dd{height:50px;padding:0 1px 5px}
+.nav-personal dd a{display:block;height:50px;line-height:72px;text-align:center;overflow:hidden;color:#CCC}
+.nav-personal dd a:hover{color:#CCC}
+.nav-personal dd.focus a{color:#FFF}
+.per-app{background-position:0 -153px}
+.per-app:hover,
+.focus .per-app{background-position:-59px -153px}
+
+.wrap{position:absolute;top:0;right:0;bottom:0;left:60px;_position:relative;_left:0;_height:100%;_margin-left:60px;overflow:auto;background:#EEE}
+.mbox{border:1px solid #DDD;background:#FFF}
+.app-contents,
+.col-main{position:relative;padding:10px;overflow:hidden}
+.col-sub{float:right;width:215px;padding:10px 10px 0 0;overflow:hidden}
+.app-list-box{height:400px;overflow:hidden}
+
+.app-list-box .app-list{height:324px;overflow:hidden;background:url(app_list.png)}
+.app-list-box .app-list li{position:relative;height:54px;padding:6px 0 6px 68px;vertical-align:middle;overflow:hidden}
+.app-list-box .app-list li:hover{background:#FBEFCE}
+.app-list-box .app-list img{position:absolute;top:9px;left:10px;width:48px;height:48px}
+.app-list-box .app-list .app-name,
+.app-list-box .app-list .app-desc{display:block;width:240px;height:27px;line-height:27px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.app-list-box .app-list .app-name{font-weight:bold}
+.app-list-box .app-list .app-desc{color:#999}
+.app-list-box .app-list .app-desc b{font-weight:normal}
+.btn-add-s,
+.btn-run-s,
+.btn-remove-s{display:inline-block;width:24px;height:24px;line-height:20;overflow:hidden;background-position:0 -110px;position:absolute;top:21px;right:20px;background:url(app_spr_img.png) no-repeat}
+.btn-add-s{background-position:0 -110px}
+.btn-add-s:hover{background-position:-25px -110px}
+.btn-add-s:active{background-position:-50px -110px}
+.btn-run-s{background-position:0 -135px}
+.btn-run-s:hover{background-position:-25px -135px}
+.btn-run-s:active{background-position:-50px -135px}
+.btn-remove-s{background-position:0 -160px}
+.btn-remove-s:hover{background-position:-25px -160px}
+.btn-remove-s:active{background-position:-50px -160px}
+
+.star-box,
+.star-box i{background:url(app_spr_img.png) no-repeat}
+.star-box{position:relative;top:-46px;left:252px;display:inline-block;width:85px;height:15px;background-position:0 -62px}
+.star-box i{position:absolute;font-style:normal;top:0;left:0;height:15px;overflow:hidden;background-position:0 -78px}
+.star-num{position:absolute;top:10px;left:415px;display:inline-block;height:21px;line-height:21px;font-family:Georgia;font-weight:bold;font-size:16px;color:#F60}
+.app-stat{position:absolute;top:36px;right:93px;color:#999}
+.app-list-box .app-list b{color:#F60}
+
+.search-box{position:relative;height:28px;margin-bottom:8px}
+
+.commend-day{height:176px;margin-bottom:10px;overflow:hidden}
+.commend-day h3{height:30px;padding:0 10px;line-height:31px;font-size:12px;overflow:hidden;border-bottom:1px solid #DDD;background-image:url(app_spr_x.png);background-repeat:repeat-x;background-position:0 -37px}
+.commend-day .star-box{left:0;top:0;float:left;margin:5px 0 0 8px;_display:inline}
+.commend-container{position:relative;float:left;width:48px;height:48px;margin:10px 0 0 5px;overflow:hidden;padding:7px 21px 45px;background:url(commend_day.gif) no-repeat 0 0;_display:inline}
+.commend-text{float:right;width:100px;padding:0 10px 0 0;line-height:18px;color:#999}
+.commend-text h4{margin-bottom:3px;padding:3px 0;font-size:12px;color:#555;border-bottom:1px solid #DDD}
+.commend-text h4 strong,
+.commend-text h4 span{display:block}
+.commend-text h4 span{font-weight:normal;color:#999}
+.commend-text .con{width:100px;height:54px;word-wrap:break-word;overflow:hidden}
+.commend-text .btn-add,
+.commend-text .btn-run{margin-top:5px;margin-right:5px;float:right;display:inline-block;width:93px;height:30px;line-height:31px;text-indent:29px;overflow:hidden;color:#FFF;background:url(app_spr_img.png) no-repeat}
+.btn-add:hover{color:#FFF;background-position:-94px 0}
+.btn-add:active{background-position:-188px 0}
+.btn-run{background-position:0 -31px}
+.btn-run:hover{color:#FFF;background-position:-94px -31px}
+.btn-run:active{background-position:-188px -31px}
+
+
+

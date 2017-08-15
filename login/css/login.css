@@ -1,0 +1,45 @@
+/*
+新细明体      \65B0\7EC6\660E\4F53
+细明体        \7EC6\660E\4F53
+标楷体        \6807\6977\4F53
+黑体          \9ED1\4F53
+宋体          \5B8B\4F53
+新宋体        \65B0\5B8B\4F53
+仿宋          \4EFF\5B8B
+楷体          \6977\4F53
+仿宋_GB2312   \4EFF\5B8B_GB2312
+楷体_GB2312   \6977\4F53_GB2312
+微软正黑体     \5FAE\x8F6F\6B63\9ED1\4F53
+微软雅黑       \5FAE\8F6F\96C5\9ED1
+*/
+
+*{margin:0;padding:0}
+form,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,p{list-style:none outside none}
+a{text-decoration:none;color:#ccc;outline:none}
+a:hover{text-decoration:none}
+a img{border:none}
+.fr{float:right}
+.fl{float:left}
+.disn{display:none}
+
+html{height:100%;overflow:hidden;-moz-user-select:none;-khtml-user-select:none;user-select:none}
+body{font:12px/1.8 \5FAE\8F6F\96C5\9ED1,\5B8B\4F53}
+
+/*登入*/
+.loading{background:url(../img/loginloading.gif) no-repeat center center #eee;position:absolute;z-index:9999;top:0;left:0;width:100%;height:100%}
+.login{background:url(../img/loginbg.png) repeat;position:absolute;z-index:9998;top:0;left:0;width:100%;height:100%;display:none}
+.login .logo{background:url(../img/hoorayos.png) no-repeat;position:absolute;left:50%;top:50%;width:330px;height:70px;margin-left:-165px;margin-top:-100px}
+.login .input{position:absolute;z-index:1;left:50%;top:50%;width:200px;height:200px;margin-left:-96px;_margin-left:-192px;margin-top:-30px;text-align:center}
+.login .input .log,
+.login .input .reg{position:absolute}
+.login .input .pwd,
+.login .input .name{position:relative;margin-top:20px}
+.login .input .pwd .submit{position:absolute;top:3px;right:4px;background:url(../img/loginsubmit.png) no-repeat;width:24px;height:24px;text-indent:-9999px;border:none;padding:0}
+.login .input .pwd .submit:active{background-position:0 -24px}
+.login .input .pwd .check{background:url(../img/logincheck.gif) no-repeat;position:absolute;top:3px;right:8px;width:24px;height:24px;text-indent:-9999px;border:0 none;padding:0;-webkit-animation:charge 1.2s linear forwards;-moz-animation:charge 1.2s linear forwards;display:none}
+.login .input #value_1,
+.login .input #value_2,
+.login .input #reg_1,
+.login .input #reg_2,
+.login .input #reg_3{width:154px;height:24px;box-shadow:0 0 2px 3px #4189c3;border-radius:3px;border:1px solid rgba(0,0,0,0);padding:2px 26px 2px 5px;font-family:\5FAE\8F6F\96C5\9ED1,\5B8B\4F53;color:#333}
+.login .input .tip{position:absolute;left:50%;width:200px;height:20px;margin-left:-100px;margin-top:10px;text-align:center;font-size:12px;color:#fff;letter-spacing:1px;text-shadow:1px 1px 2px #000;display:none}
