@@ -48,9 +48,9 @@
 			<span class="add-on">网络壁纸</span><input type="text" id="wallpaperurl" style="width:355px" placeholder="请输入一个URL地址（地址以jpg,jpeg,png,gif,html,htm结尾）" value="{$wallpaperWebsite}">
 		</div>
 	</div>
-	<script src="../../third_party/js/jquery/jquery-1.8.1.min.js"></script>
-	<script src="../../third_party/js/artDialog4.1.6/jquery.artDialog.js?skin=default"></script>
-	<script src="../../third_party/js/artDialog4.1.6/plugins/iframeTools.js"></script>
+	<script src="../../third_party/jquery/jquery-1.8.1.min.js"></script>
+	<script src="../../third_party/artDialog4.1.6/jquery.artDialog.js?skin=default"></script>
+	<script src="../../third_party/artDialog4.1.6/plugins/iframeTools.js"></script>
 	<script src="../../core/js/HoorayLibs/hooraylibs.js"></script>
 	<script>
 	$(function(){

@@ -115,9 +115,9 @@
 </div>
 <div id="shortupload" style="width:260px;height:110px;position:relative;display:none"><div id="target_box" class="dashboard_target_box"><div id="drop_zone_home" class="dashboard_target_messages_container"><p id="dtb-msg2" class="dashboard_target_box_message" style="top:-44px">选择你的图片<br>开始上传</p><p id="dtb-msg1" class="dashboard_target_box_message" style="top:-44px"><span class="compatible" style="display:inline">拖动图片到这里<br>开始上传图片</span><span class="notcompatible" id="dtb-msg4" style="display:none">点这里<br>开始上传图片</span></p></div><p id="dtb-msg3" class="dashboard_target_box_message">选择网络图片</p><p id="dtb-msg4" class="dashboard_target_box_message" style="position:relative"><span style="display:none;width:200px;height:2px;background:#ccc;left:-25px;position:absolute;z-index:1"></span><span style="display:none;width:0px;height:2px;background:#09F;left:-25px;position:absolute;z-index:2"></span></p></div></div>
 </form>
-	<script src="../../third_party/js/jquery/jquery-1.8.1.min.js"></script>
-	<script src="../../third_party/js/artDialog4.1.6/jquery.artDialog.js?skin=default"></script>
-	<script src="../../third_party/js/artDialog4.1.6/plugins/iframeTools.js"></script>
+	<script src="../../third_party/jquery/jquery-1.8.1.min.js"></script>
+	<script src="../../third_party/artDialog4.1.6/jquery.artDialog.js?skin=default"></script>
+	<script src="../../third_party/artDialog4.1.6/plugins/iframeTools.js"></script>
 	<script src="../../core/js/HoorayLibs/hooraylibs.js"></script>
 	<script>
 	$(function(){

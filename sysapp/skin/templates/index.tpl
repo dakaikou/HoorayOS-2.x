@@ -22,9 +22,9 @@
 		<li skin="chrome"><img src="../../img/ui/skin_chrome.png"></li>
 		<li skin="ext"><img src="../../img/ui/skin_ext.png"></li>
 	</ul>
-	<script src="../../third_party/js/jquery/jquery-1.8.1.min.js"></script>
-	<script src="../../third_party/js/artDialog4.1.6/jquery.artDialog.js?skin=default"></script>
-	<script src="../../third_party/js/artDialog4.1.6/plugins/iframeTools.js"></script>
+	<script src="../../third_party/jquery/jquery-1.8.1.min.js"></script>
+	<script src="../../third_party/artDialog4.1.6/jquery.artDialog.js?skin=default"></script>
+	<script src="../../third_party/artDialog4.1.6/plugins/iframeTools.js"></script>
 	<script src="../../core/js/HoorayLibs/hooraylibs.js"></script>
 	<script>
 	$(function(){
