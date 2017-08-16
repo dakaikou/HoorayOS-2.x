@@ -140,8 +140,8 @@
 		</div>
 	</div>
 </div>
-<script src="../third_party/js/jquery/jquery-1.8.1.min.js"></script>
-<script src="../third_party/js/artDialog4.1.6/jquery.artDialog.js?skin=default"></script>
+<script src="../third_party/jquery/jquery-1.8.1.min.js"></script>
+<script src="../third_party/artDialog4.1.6/jquery.artDialog.js?skin=default"></script>
 <script src="js/HoorayLibs/hooraylibs.js?v=2.0"></script>
 <script src="js/templates.js?v=2.0"></script>
 <script src="js/util.js?v=2.0"></script>
