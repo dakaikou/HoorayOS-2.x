@@ -46,8 +46,8 @@
 		</div>
 	</div>
 	
-	<script src="../third_party/jquery/jquery-1.8.1.min.js"></script>
-	<script src="../third_party/jquery.placeholder/jquery.placeholder-2.3.1.js"></script>
+	<script src="../third_party/js/jquery/jquery-1.8.1.min.js"></script>
+	<script src="../third_party/js/jquery.placeholder/jquery.placeholder-2.3.1.js"></script>
 	{literal}
 	<script>
 	$(document).ready(function(){
