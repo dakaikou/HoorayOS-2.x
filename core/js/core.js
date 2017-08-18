@@ -5,7 +5,7 @@
 **  我希望能将这项目继续开源下去，所以请手下留情，保留以上这段版权信息
 */
 
-var version   = '2.0';  //版本号
+var version   = '2.x';  //版本号
 var ajaxUrl   = 'ajax.php';  //所有ajax操作指向页面
 var zoomlevel = 1;
 var TEMP      = {};
@@ -115,7 +115,7 @@ HROS.app = (function(){
 					HROS.window.createTemp({
 						id : 'yysc',
 						title : '应用市场',
-						url : '../../sysapp/appmarket/index.php',
+						url : '../sysapp/appmarket/index.php',
 						width : 800,
 						height : 484,
 						isresize : false,
@@ -1091,7 +1091,7 @@ HROS.base = (function(){
 				HROS.window.createTemp({
 					id : 'ztsz',
 					title : '主题设置',
-					url : '../../sysapp/wallpaper/index.php',
+					url : '../sysapp/wallpaper/index.php',
 					width : 580,
 					height : 520,
 					isresize : false,
@@ -2298,7 +2298,7 @@ HROS.popupMenu = (function(){
 					HROS.window.createTemp({
 						id : 'ztsz',
 						title : '主题设置',
-						url : '../../sysapp/wallpaper/index.php',
+						url : '../sysapp/wallpaper/index.php',
 						width : 580,
 						height : 520,
 						isresize : false,
@@ -2310,7 +2310,7 @@ HROS.popupMenu = (function(){
 					HROS.window.createTemp({
 						id : 'zmsz',
 						title : '桌面设置',
-						url : '../../sysapp/desksetting/index.php',
+						url : '../sysapp/desksetting/index.php',
 						width : 750,
 						height : 450,
 						isresize : false,

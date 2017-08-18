@@ -2,7 +2,7 @@
 	require_once('../../global.php');
 	require_once 'sysapp/common/inc/error_code.php';
 	require_once 'sysapp/common/inc/function.db.php';
-	require_once 'third_party/php/Smarty-3.1.30/libs/Smarty.class.php';
+	require_once 'third_party/Smarty-3.1.30/libs/Smarty.class.php';
 	require_once 'dbase/db.class.php';
 	require_once 'dbase/db.config.php';
 	
